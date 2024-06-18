@@ -50,8 +50,6 @@ app.post('/api/search', async (req, res) => {
       const animals = await Animal.find({
         name: new RegExp(query, 'i') // Case-insensitive regex search
       });
-      console.log('Search query:', query);
-      console.log('Search results:', animals);
       res.json(animals);
     } catch (err) {
       res.status(500).json({ message: err.message });
