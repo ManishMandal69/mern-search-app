@@ -1,0 +1,29 @@
+/* Custom styles for the search button */
+.btn-custom {
+  padding: 0.5rem 1rem; /* Adjust padding for button size */
+  font-size: 1rem; /* Set font size */
+  height: auto; /* Auto height to fit content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form .btn {
+  height: 38px; /* Match the height with the input box */
+}
+
+
+/* Center the container and set a max width */
+.app-container {
+  max-width: 900px; /* Adjust as needed */
+  padding: 20px;
+}
+
+.search-form {
+  width: 100%;
+  max-width: 600px; /* Control the maximum width of the search form */
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
