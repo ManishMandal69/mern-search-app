@@ -11,7 +11,7 @@ function App() {
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/search', { query });
+      const response = await axios.post('https://mern-search-app-6.onrender.com/api/search', { query });
       setResults(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
